@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.obelezivaci.ObelezivaciFragment" >
+
+    <Spinner
+        android:id="@+id/fragment_obelezivaci_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/fragment_obelezivaci_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#1C305C"
+        android:text="@string/izaberi_sliku"
+        app:layout_constraintStart_toStartOf="@+id/fragment_obelezivaci_spinner"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_obelezivaci_spinner" />
+
+    <ImageView
+        android:id="@+id/idIVImage"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/slika_sa_citatom"
+        app:layout_constraintStart_toStartOf="@+id/fragment_obelezivaci_button"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_obelezivaci_button" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/slika_sa_citatom"
+        android:text="@string/slika_koju_ste_izabrali_sa_citatom_na_njoj"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/idIVImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_obelezivaci_button" />
+
+    <Button
+        android:id="@+id/fragment_obelezivaci_buttonPreuzmi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#1C305C"
+        android:text="@string/preuzmi_sliku"
+        app:layout_constraintStart_toStartOf="@+id/fragment_obelezivaci_button"
+        app:layout_constraintTop_toBottomOf="@+id/idIVImage" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

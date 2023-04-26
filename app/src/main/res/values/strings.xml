@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">ENjegos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_citaj">Hello Citaj fragment</string>
+    <string name="hello_navbar_raspolozenja">Hello Raspolozenja fragment</string>
+    <string name="hello_obelezivaci">Hello Obelezivaci fragment</string>
+    <string name="hello_zanimljivosti">Hello Zanimljivosti fragment</string>
+    <string name="navbar_zanimljivosti">Zanimljivosti</string>
+    <string name="navbar_obelezivaci">Obelezivaci</string>
+    <string name="navbar_raspolozenja">Raspolozenja</string>
+    <string name="navbar_citaj">Citaj</string>
+    <string name="osecanje_naslov">Kako se trenutno osećaš?</string>
+    <string name="button_ljubav">Ljubav</string>
+    <string name="button_nervoza">Nervoza</string>
+    <string name="button_gnev">Gnev</string>
+    <string name="button_nada">Nada</string>
+    <string name="button_depresija">Depresija</string>
+    <string name="button_mir">Mir</string>
+    <string name="button_strah">Strah</string>
+    <string name="button_strpljenje">Strpljenje</string>
+    <string name="button_iskusenje">Iskušenje</string>
+    <string name="button_gordost">Gordost</string>
+    <string name="button_radost">Radost</string>
+    <string name="button_ljubomora">Ljubomora</string>
+    <string name="button_gubitak">Gubitak</string>
+    <string name="button_iscelenje">Iscelenje</string>
+    <string name="oznaci_kao_omiljen">Označi kao omiljen</string>
+    <string name="tumacenje">Tumačenje</string>
+    <string name="podeli_citat">Podeli citat</string>
+    <string name="komentar">komentar</string>
+    <string name="dodaj_kao_omiljeno">Dodaj kao omiljeno</string>
+    <string name="izaberi_sliku">Izaberi sliku</string>
+    <string name="slika_sa_citatom">Slika sa citatom</string>
+    <string name="slika_koju_ste_izabrali_sa_citatom_na_njoj">Slika koju ste izabrali sa citatom na njoj:</string>
+    <string name="preuzmi_sliku">Preuzmi sliku</string>
+    <string name="idi_na_lov_en">Idi na Lovćen</string>
+    <string name="njegos_i_sloboda">Njegoš i sloboda</string>
+    <string name="njegos_i_pomorandze">Njegoš i pomorandže</string>
+    <string name="njegos_i_zenenje">Njegoš i žene</string>
+    <string name="njegos_i_cenzura">Njegoš i cenzura</string>
+    <string name="njegos_i_lanci">Njegoš i lanci</string>
+    <string name="lovcen_lokacija">Idi na lovćen</string>
+    <string name="textview">TextView</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item  android:title="@string/navbar_citaj"
+           android:icon="@drawable/baseline_home_24"
+           android:id="@+id/navigation_bar_citaj"/>
+
+    <item android:title="@string/navbar_raspolozenja"
+          android:icon="@drawable/baseline_mood_24"
+          android:id="@+id/navigation_bar_raspolozenja" />
+
+    <item android:title="@string/navbar_obelezivaci"
+          android:icon="@drawable/baseline_bookmarks_24"
+          android:id="@+id/navigation_bar_obelezivaci"/>
+
+    <item android:title="@string/navbar_zanimljivosti"
+          android:icon="@drawable/baseline_weekend_24"
+          android:id="@+id/navigation_bar_zanimljivosti"/>
+</menu>

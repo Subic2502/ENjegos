@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OznaciKaoOmiljeno">
+
+    <EditText
+        android:id="@+id/oznaci_omiljeno_textedit"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="@string/komentar"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/oznaci_omiljeno_textView"
+        app:layout_constraintTop_toBottomOf="@+id/oznaci_omiljeno_textView" />
+
+    <TextView
+        android:id="@+id/oznaci_omiljeno_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:text=""
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/oznaci_omiljeno_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/dodaj_kao_omiljeno"
+        app:layout_constraintStart_toStartOf="@+id/oznaci_omiljeno_textedit"
+        app:layout_constraintTop_toBottomOf="@+id/oznaci_omiljeno_textedit" />
+</androidx.constraintlayout.widget.ConstraintLayout>

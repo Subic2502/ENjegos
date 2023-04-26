@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.raspolozenja.RaspolozenjaFragment">
+
+    <TextView
+        android:id="@+id/fragment_raspolozenja_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/osecanje_naslov"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/fragment_raspolozenja_ljubavbutton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="73dp"
+        android:backgroundTint="#1C305C"
+        android:outlineAmbientShadowColor="#1C305C"
+        android:outlineSpotShadowColor="#1C305C"
+        android:shadowColor="#1C305C"
+        android:text="@string/button_ljubav"
+        android:textColorHighlight="#1C305C"
+        android:textColorLink="#1C305C"
+        app:layout_constraintEnd_toStartOf="@+id/fragment_raspolozenja_nervozabutton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="#1C305C"
+        app:strokeColor="#1C305C" />
+
+    <Button
+        android:id="@+id/fragment_raspolozenja_nervozabutton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="75dp"
+        android:backgroundTint="#1C305C"
+        android:text="@string/button_nervoza"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/fragment_raspolozenja_gnevbutton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="73dp"
+        android:backgroundTint="#1C305C"
+        android:text="@string/button_gnev"
+        app:layout_constraintEnd_toStartOf="@+id/nfragment_raspolozenja_nadabutton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_raspolozenja_ljubavbutton" />
+
+    <Button
+        android:id="@+id/nfragment_raspolozenja_nadabutton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="75dp"
+        android:backgroundTint="#1C305C"
+        android:text="@string/button_nada"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_raspolozenja_nervozabutton" />
+
+    <Button
+        android:id="@+id/fragment_raspolozenja_depresijabutton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="73dp"
+        android:backgroundTint="#1C305C"
+        android:text="@string/button_depresija"
+        app:layout_constraintEnd_toStartOf="@+id/fragment_raspolozenja_mirbutton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_raspolozenja_gnevbutton" />
+
+    <Button
+        android:id="@+id/fragment_raspolozenja_mirbutton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="75dp"
+        android:backgroundTint="#1C305C"
+        android:text="@string/button_mir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nfragment_raspolozenja_nadabutton" />
+
+    <Button
+        android:id="@+id/fragment_raspolozenja_strahbutton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="73dp"
+        android:backgroundTint="#1C305C"
+        android:text="@string/button_strah"
+        app:layout_constraintEnd_toStartOf="@+id/fragment_raspolozenja_strpljenje"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_raspolozenja_depresijabutton" />
+
+    <Button
+        android:id="@+id/fragment_raspolozenja_strpljenje"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="75dp"
+        android:backgroundTint="#1C305C"
+        android:text="@string/button_strpljenje"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_raspolozenja_mirbutton" />
+
+    <Button
+        android:id="@+id/fragment_raspolozenja_iskusenjebutton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="73dp"
+        android:backgroundTint="#1C305C"
+        android:text="@string/button_iskusenje"
+        app:layout_constraintEnd_toStartOf="@+id/fragment_raspolozenja_gordostbutton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_raspolozenja_strahbutton" />
+
+    <Button
+        android:id="@+id/fragment_raspolozenja_gordostbutton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="75dp"
+        android:backgroundTint="#1C305C"
+        android:text="@string/button_gordost"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_raspolozenja_strpljenje" />
+
+    <Button
+        android:id="@+id/fragment_raspolozenja_radostbutton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="73dp"
+        android:backgroundTint="#1C305C"
+        android:text="@string/button_radost"
+        app:layout_constraintEnd_toStartOf="@+id/fragment_raspolozenja_ljubomorabutton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_raspolozenja_iskusenjebutton" />
+
+    <Button
+        android:id="@+id/fragment_raspolozenja_ljubomorabutton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="75dp"
+        android:backgroundTint="#1C305C"
+        android:text="@string/button_ljubomora"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_raspolozenja_gordostbutton" />
+
+    <Button
+        android:id="@+id/fragment_raspolozenja_gubitakbutton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="73dp"
+        android:backgroundTint="#1C305C"
+        android:text="@string/button_gubitak"
+        app:layout_constraintEnd_toStartOf="@+id/iscelenjebutton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_raspolozenja_radostbutton" />
+
+    <Button
+        android:id="@+id/iscelenjebutton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="75dp"
+        android:backgroundTint="#1C305C"
+        android:text="@string/button_iscelenje"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_raspolozenja_ljubomorabutton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
